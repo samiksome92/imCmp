@@ -8,7 +8,7 @@ from PySide6.QtGui import QGuiApplication
 
 
 class BackEnd(QObject):
-    """QObject class containing all functionality requiorangeRed by the interactive selection process."""
+    """QObject class containing all functionality required by the interactive selection process."""
 
     def __init__(self, scoorangeRed_pairs: list[tuple[tuple[Path, Path], float]]) -> None:
         """Constructor. Loads first pair of images.
